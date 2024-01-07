@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files_0.zip -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!-- for siteini's that need a decrypt_userkey-->
+  <decryptkey site="site-name">decrypt_userkey</decryptkey>
+  <!-- add the correct license id values in the next line -->
+  <license wg-username="your webgrab+plus username" registered-email="your registered email address" password="your license password">f</license>
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>1</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+			or https://github.com/SilentButeo2/webgrabplus-siteinipack/tree/master/siteini.pack
+  -->
+  
+  <channel id="Discovery Channel SD [Alter]">
+    <display-name lang="pt">Discovery Channel SD [Alter]</display-name>
+    <url>http://www.vivo.com.br</url>
+  </channel>
+  <channel id="Discovery Channel HD">
+    <display-name lang="pt">Discovery Channel HD</display-name>
+    <url>http://www.vivo.com.br</url>
+  </channel>
+  <channel id="Discovery Channel HD [Alter]">
+    <display-name lang="pt">Discovery Channel HD [Alter]</display-name>
+    <url>http://www.vivo.com.br</url>
+  </channel>
+  <channel id="Discovery Channel FHD [Alter]">
+    <display-name lang="pt">Discovery Channel FHD [Alter]</display-name>
+    <url>http://www.vivo.com.br</url>
+  </channel>
+  <channel id="Discovery Channel FHD">
+    <display-name lang="pt">Discovery Channel FHD</display-name>
+    <url>http://www.vivo.com.br</url>
+  </channel>
+  <channel id="Discovery Channel FHD H.265">
+    <display-name lang="pt">Discovery Channel FHD H.265</display-name>
+    <url>http://www.vivo.com.br</url>
+  </channel>
+  <channel id="Discovery Channel 4K">
+    <display-name lang="pt">Discovery Channel 4K</display-name>
+    <url>http://www.vivo.com.br</url>
+  </channel>
+ 
+</settings>
